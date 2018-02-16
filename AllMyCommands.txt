@@ -1,0 +1,18 @@
+Git init
+Git add .
+Git rm —cached secondfile.md
+Git add second file.md
+Git commit -m”added second file.md”
+git remote add origin https://github.com/mohamedelgabry/sprint0.git
+git push -u origin master
+git checkout -b ReadMe
+git checkout ReadMe
+git add README.md
+git rm --cached README.md
+git add README.md
+git commit -m"added README.md"
+git checkout master
+git merge ReadMe
+Git add AllMyCommands.txt
+Git commit “added AllMyCommands.txt”
+git push -u origin master
